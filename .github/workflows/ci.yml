@@ -43,10 +43,10 @@ jobs:
       - name: Run linter 👀
         run: npm run lint
 
-      - name: Generate site 🔧
+      - name: Generate site ⛽
         run: npm run generate
 
-      - name: Deploy 🚢
+      - name: Deploy 🏎️
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

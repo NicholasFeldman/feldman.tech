@@ -9,12 +9,7 @@
     <v-main>
       <nuxt />
     </v-main>
-    <v-footer
-      color="#00000000"
-      padless
-      absolute
-      app
-    >
+    <v-footer color="#00000000" padless absolute app>
       <v-spacer />
       <span>&copy; {{ new Date().getFullYear() }} Nicholas Feldman</span>
       <v-spacer />
