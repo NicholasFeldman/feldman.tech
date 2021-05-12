@@ -7,6 +7,7 @@
           <div class="text-center">
             <contact />
             <projects />
+            <upcoming-blog-posts />
           </div>
         </v-col>
       </v-row>
