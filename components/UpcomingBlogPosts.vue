@@ -2,7 +2,7 @@
   <v-container>
     <p class="text-h4">Upcoming Blog Posts</p>
     <v-row>
-      <v-col v-for="post in posts" :key="post.title" md="6" sm="12">
+      <v-col v-for="post in posts" :key="post.title">
         <v-card>
           <v-img :src="post.image" />
           <v-card-title>{{ post.title }}</v-card-title>
