@@ -2,7 +2,7 @@
   <v-container>
     <p class="text-h4">Projects</p>
     <v-row>
-      <v-col v-for="project in projects" :key="project.title" cols="6">
+      <v-col v-for="project in projects" :key="project.title" md="6" sm="12">
         <v-card>
           <v-img :src="project.image" />
           <v-card-text>{{ project.text }}</v-card-text>
